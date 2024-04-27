@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="com.fairplay.test.LoginNegativeTestCases" />
+			<class name="com.fairplay.test.ForgotPasswordNegativeTestCases" />
+			<class name="com.fairplay.test.ForgotPasswordPositiveTestCases" />
+			<class name="com.fairplay.test.WithdrawalAddBank_DeleteBankTc"/>
+			<class name="com.fairplay.test.WithdrawalNegativeTestCases"/>
+			<class name="com.fairplay.test.ChangeMobileNumberPositiveTestCases" />
+			<class name="com.fairplay.test.ChangeMobileNumberNegativeTestCases"/>
+			<class name="com.fairplay.test.EditProfilePositiveTestCase"/>
+			<class name="com.fairplay.test.EditProfileNegativeTestCases"/>
+			<class name="com.fairplay.test.ResetPasswordPositiveTestCases" />
+			<class name="com.fairplay.test.ResetPasswordNegativeTestCases"/>
+			<class name="com.fairplay.test.InstantWithdrawalAddBank_DeleteBankTc"/>
+			<class name="com.fairplay.test.InstantWithdrawalNegativeTestCases"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

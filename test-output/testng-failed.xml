@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.fairplay.test.InstantWithdrawalPositiveTestCases">
+        <methods>
+          <include name="WithdrawValidAmt"/>
+          <include name="checkStatus"/>
+          <include name="generateExtentReports"/>
+          <include name="checkAccessTokenAfterLogout"/>
+          <include name="createExtentTest"/>
+          <include name="initializeBrowser"/>
+          <include name="tearDown"/>
+          <include name="logout"/>
+          <include name="pageObjects"/>
+        </methods>
+      </class> <!-- com.fairplay.test.InstantWithdrawalPositiveTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

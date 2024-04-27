@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-12T17:38:25 IST" name="Default suite" finished-at="2023-06-12T17:40:47 IST" duration-ms="141825">
+    <groups>
+    </groups>
+    <test started-at="2023-06-12T17:38:25 IST" name="Default test" finished-at="2023-06-12T17:40:47 IST" duration-ms="141825">
+      <class name="com.fairplay.test.InstantWithdrawalPositiveTestCases">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:37:34 IST" name="initializeBrowser" finished-at="2023-06-12T17:38:25 IST" duration-ms="51179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:38:25 IST" name="pageObjects" finished-at="2023-06-12T17:38:25 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:38:25 IST" name="createExtentTest" finished-at="2023-06-12T17:38:25 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.login() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="login()[pri:1, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:38:25 IST" name="login" finished-at="2023-06-12T17:39:20 IST" duration-ms="54842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:20 IST" name="checkStatus" finished-at="2023-06-12T17:39:20 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.login() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=InstantWithdrawalPositiveTestCases.login()[pri:1, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:20 IST" name="createExtentTest" finished-at="2023-06-12T17:39:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.checkAccessTokenAfterLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="checkAccessTokenAfterLogin()[pri:2, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:20 IST" name="checkAccessTokenAfterLogin" finished-at="2023-06-12T17:39:20 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccessTokenAfterLogin -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:20 IST" name="checkStatus" finished-at="2023-06-12T17:39:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.checkAccessTokenAfterLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkAccessTokenAfterLogin status=SUCCESS method=InstantWithdrawalPositiveTestCases.checkAccessTokenAfterLogin()[pri:2, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="getWalletAmt()[pri:3, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:20 IST" name="getWalletAmt" finished-at="2023-06-12T17:39:25 IST" duration-ms="5123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWalletAmt -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:20 IST" name="createExtentTest" finished-at="2023-06-12T17:39:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.getWalletAmt() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:25 IST" name="checkStatus" finished-at="2023-06-12T17:39:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.getWalletAmt() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getWalletAmt status=SUCCESS method=InstantWithdrawalPositiveTestCases.getWalletAmt()[pri:3, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyInstantWithdraw()[pri:4, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:25 IST" name="verifyInstantWithdraw" finished-at="2023-06-12T17:39:39 IST" duration-ms="13999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInstantWithdraw -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:25 IST" name="createExtentTest" finished-at="2023-06-12T17:39:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.verifyInstantWithdraw() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:39 IST" name="checkStatus" finished-at="2023-06-12T17:39:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.verifyInstantWithdraw() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyInstantWithdraw status=SUCCESS method=InstantWithdrawalPositiveTestCases.verifyInstantWithdraw()[pri:4, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="WithdrawValidAmt()[pri:5, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:39 IST" name="WithdrawValidAmt" finished-at="2023-06-12T17:40:04 IST" duration-ms="24628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WithdrawValidAmt -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:39:39 IST" name="createExtentTest" finished-at="2023-06-12T17:39:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.WithdrawValidAmt() throws java.lang.InterruptedException,java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:04 IST" name="checkStatus" finished-at="2023-06-12T17:40:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.WithdrawValidAmt() throws java.lang.InterruptedException,java.io.FileNotFoundException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=WithdrawValidAmt status=SUCCESS method=InstantWithdrawalPositiveTestCases.WithdrawValidAmt()[pri:5, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:04 IST" name="createExtentTest" finished-at="2023-06-12T17:40:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.checkWithdrawalReq() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="checkWithdrawalReq()[pri:6, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:04 IST" name="checkWithdrawalReq" finished-at="2023-06-12T17:40:06 IST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWithdrawalReq -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:06 IST" name="checkStatus" finished-at="2023-06-12T17:40:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.checkWithdrawalReq() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkWithdrawalReq status=SUCCESS method=InstantWithdrawalPositiveTestCases.checkWithdrawalReq()[pri:6, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:06 IST" name="createExtentTest" finished-at="2023-06-12T17:40:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.getWalletAmtAfterWithdrawal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="getWalletAmtAfterWithdrawal()[pri:7, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:06 IST" name="getWalletAmtAfterWithdrawal" finished-at="2023-06-12T17:40:10 IST" duration-ms="4103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWalletAmtAfterWithdrawal -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:10 IST" name="checkStatus" finished-at="2023-06-12T17:40:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.getWalletAmtAfterWithdrawal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getWalletAmtAfterWithdrawal status=SUCCESS method=InstantWithdrawalPositiveTestCases.getWalletAmtAfterWithdrawal()[pri:7, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:10 IST" name="createExtentTest" finished-at="2023-06-12T17:40:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.cancelWithdrawalReq() throws java.lang.InterruptedException,java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="cancelWithdrawalReq()[pri:8, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:10 IST" name="cancelWithdrawalReq" finished-at="2023-06-12T17:40:15 IST" duration-ms="4795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelWithdrawalReq -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:15 IST" name="checkStatus" finished-at="2023-06-12T17:40:15 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.cancelWithdrawalReq() throws java.lang.InterruptedException,java.io.FileNotFoundException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=cancelWithdrawalReq status=SUCCESS method=InstantWithdrawalPositiveTestCases.cancelWithdrawalReq()[pri:8, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:15 IST" name="createExtentTest" finished-at="2023-06-12T17:40:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.getWalletAmtAfterCancellingWithdrawal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="getWalletAmtAfterCancellingWithdrawal()[pri:9, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:15 IST" name="getWalletAmtAfterCancellingWithdrawal" finished-at="2023-06-12T17:40:18 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWalletAmtAfterCancellingWithdrawal -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:18 IST" name="checkStatus" finished-at="2023-06-12T17:40:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.getWalletAmtAfterCancellingWithdrawal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getWalletAmtAfterCancellingWithdrawal status=SUCCESS method=InstantWithdrawalPositiveTestCases.getWalletAmtAfterCancellingWithdrawal()[pri:9, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="logout()[pri:10, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:18 IST" name="logout" finished-at="2023-06-12T17:40:47 IST" duration-ms="28856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:18 IST" name="createExtentTest" finished-at="2023-06-12T17:40:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:47 IST" name="checkStatus" finished-at="2023-06-12T17:40:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.logout()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=InstantWithdrawalPositiveTestCases.logout()[pri:10, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:47 IST" name="createExtentTest" finished-at="2023-06-12T17:40:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.checkAccessTokenAfterLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="checkAccessTokenAfterLogout()[pri:11, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:47 IST" name="checkAccessTokenAfterLogout" finished-at="2023-06-12T17:40:47 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccessTokenAfterLogout -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:47 IST" name="checkStatus" finished-at="2023-06-12T17:40:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fairplay.test.InstantWithdrawalPositiveTestCases.checkAccessTokenAfterLogout()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkAccessTokenAfterLogout status=SUCCESS method=InstantWithdrawalPositiveTestCases.checkAccessTokenAfterLogout()[pri:11, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:47 IST" name="generateExtentReports" finished-at="2023-06-12T17:40:48 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fairplay.test.InstantWithdrawalPositiveTestCases@1ed4ae0f]" started-at="2023-06-12T17:40:48 IST" name="tearDown" finished-at="2023-06-12T17:40:48 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fairplay.test.InstantWithdrawalPositiveTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

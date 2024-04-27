@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="true">
+	<suite-files>
+		<suite-file path="AffiliateSignUpFlowThroughRegistration.xml"></suite-file>
+		<suite-file path="Fairplay_UAT.xml"></suite-file>
+		<suite-file path="AffiliateSignUpFlowThroughRegistration2.xml"></suite-file>
+		<suite-file path="FpSportsCreateNewUserFromBackend.xml"></suite-file>
+		<suite-file path="AffiliateSignUpFlowThroughFP_Registration.xml"></suite-file>
+		<suite-file path="FPSportsUserLoginFromFpUI.xml"></suite-file>
+		<suite-file path="AffiliateSignUpFlowThroughQuick_Signup2.xml"></suite-file>
+	</suite-files>
+</suite>
+
